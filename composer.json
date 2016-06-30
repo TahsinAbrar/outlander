@@ -1,0 +1,27 @@
+{
+    "name": "tahsinabrar/outlander",
+    "description": "Outlander for the Laravel Framework to use laravel features outside of Laravel.",
+    "keywords": ["php", "illuminate"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tahsin Abrar",
+            "email": "abrar.cste@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/database": "^5.2",
+        "illuminate/routing": "^5.2",
+        "illuminate/support": "^5.2",
+        "illuminate/events": "^5.2",
+        "illuminate/container": "^5.2"
+    },
+    "autoload": {
+              "psr-4": {
+                  "Models\\": "Models/"
+              },
+              "files": [
+              ]
+    }
+}
